@@ -9,12 +9,11 @@ This Bash script helps to unban a specific IP address in iptables. It provides a
 ```
 
 ## Features
-1. First list item
-   - View detailed information about the banned IP addresses.
-   - Three methods to unban the IP using iptables:
-     1. Remove the corresponding rule using sudo iptables -D <chain-name> <rule-number>.
-     2. Manually edit iptables configuration to remove the rule.
-     3. Adjust iptables rules to allow the specific IP.
+- View detailed information about the banned IP addresses.
+- Three methods to unban the IP using iptables:
+  1. Remove the corresponding rule using sudo iptables -D <chain-name> <rule-number>.
+  2. Manually edit iptables configuration to remove the rule.
+  3. Adjust iptables rules to allow the specific IP.
 
 ## Instructions
 1. Run the script with the target IP address as a parameter.
